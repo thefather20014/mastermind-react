@@ -1,0 +1,235 @@
+ 
+ .container {
+     display: flex;
+     margin-bottom: 25px;
+ }
+ 
+ .circle {
+    width: 35px;
+    height: 35px;
+    border: 4px solid rgba( 204, 204, 204, 1 );
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: none;
+ }
+ 
+ .circle:hover {
+     cursor: pointer;
+ }
+
+ .circleBlue {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: blue;
+ }
+
+ .circleBlue:hover {
+    cursor: pointer;
+}
+
+.circlePink {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: pink;
+ }
+
+ .circlePink:hover {
+    cursor: pointer;
+}
+
+.circleGreen {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: green;
+ }
+
+ .circleGreen:hover {
+    cursor: pointer;
+}
+
+.circleOrange {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: orange;
+ }
+
+ .circleOrange:hover {
+    cursor: pointer;
+}
+
+.circleRed {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: red;
+ }
+
+ .circleRed:hover {
+    cursor: pointer;
+}
+
+.circleLightBlue {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: lightblue;
+ }
+
+ .circleLightBlue:hover {
+    cursor: pointer;
+}
+
+ .separator {
+    margin: 0px 5px;
+    border: none;
+    height: 40px;
+    border-right: 2px solid rgba( 204, 204, 204, .9 );
+ }
+
+ .checkBtn {
+     border: none;
+     padding: 14px 10px;
+     background: #2196F3;
+     color: #fff;
+     border-radius: 3px;
+     outline: none;
+ }
+
+ .checkBtn:hover {
+     cursor: pointer;
+ }
+
+ .minus_circle {
+    width: 15px;
+    height: 15px;
+    border: 4px solid rgba( 204, 204, 204, 1 );
+    border-radius: 50%;
+    margin: 3px 5px;
+    background: none;
+ }
+
+ .minus_circleBlack {
+    width: 15px;
+    height: 15px;
+    border: 4px solid rgba( 0, 0, 0, .8 );
+    border-radius: 50%;
+    margin: 3px 5px;
+    background: none;
+ }
+
+ .minus_circleRed {
+    width: 15px;
+    height: 15px;
+    border: 4px solid rgba(216, 19, 19, 0.8);
+    border-radius: 50%;
+    margin: 3px 5px;
+    background: none;
+ }
+
+ .container2 {
+    display: flex;
+    flex-flow: wrap row;
+    width: 70px;
+}
+
+.card {
+    display: flex;
+    flex-flow: wrap row;
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+    background: #fff;
+    -webkit-box-shadow: 10px 10px 12px -6px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 12px -6px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 12px -6px rgba(0,0,0,0.38);
+    border: 1px solid rgba( 0, 0, 0, .5 );
+    border-radius: 5px;
+}
+
+.card > div {
+    margin: 0px 2px;
+}
+
+.card > div:hover {
+    cursor: pointer;
+}
+
+.red {
+    background: red;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.blue {
+    background: blue;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.orange {
+    background: orange;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.pink {
+    background: pink;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.green {
+    background: green;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.lightblue {
+    background: lightblue;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.containerGone {
+    display: none;
+}
+
+.checkBtnDisabled {
+    border: none;
+     padding: 14px 10px;
+     background: rgba( 204, 204, 204, .9 );;
+     color: #fff;
+     border-radius: 3px;
+     outline: none;
+}
+
+.undoBtn {
+    padding: 10px;
+    margin: 0px 2px;
+    border: 1px solid rgba( 204, 204, 204, .7 );
+    background: transparent;
+    transition: all, .3s ease;
+    outline: none;
+}
+
+.undoBtn:hover {
+    cursor: pointer;
+    transition: all, .5s ease;
+    transform: translateY( -1px ) scale( 1.1 );
+}
