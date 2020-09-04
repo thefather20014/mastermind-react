@@ -95,7 +95,7 @@ const Play = () => {
 
                     <div className={Style.footer}>
                         <span className={Style.copyright}>©2020, Carlos Aracena</span>
-                        <a href="https://github.com/thefather20014" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                        <a href="https://github.com/thefather20014/mastermind-react" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                             <span className={Style.code}><i className="fab fa-github"></i> Source Code</span>
                         </a>
                     </div>
